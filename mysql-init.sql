@@ -1,0 +1,5 @@
+CREATE USER IF NOT EXISTS 'hoteluser'@'%' IDENTIFIED BY '0261';
+
+GRANT ALL PRIVILEGES ON hotel_ddj_db.* TO 'hoteluser'@'%';
+
+FLUSH PRIVILEGES;

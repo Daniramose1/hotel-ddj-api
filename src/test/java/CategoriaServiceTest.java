@@ -40,5 +40,6 @@ public class CategoriaServiceTest {
 
         assertEquals(1, resultado.size());
         assertEquals("Cocina", resultado.get(0).getNombre());
+
     }
 }
